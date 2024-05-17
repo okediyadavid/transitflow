@@ -4,69 +4,69 @@
     font-weight: 600;
     line-height: 50.1px;
     text-align: left;
-    }
-    
-    .cont-3 {
-        background-image: url('./img/Backplane.png');
-        background-size: cover;
-        background-position: center;
-        padding: 50px;
-        height: 22rem;
-        position: relative;
-        margin-top: 100px;
-        width: 100%;
-    }
-    
-    .content-3 {
-        color: white;
-        width: 228px;
-        margin: 0 auto;
-        position: absolute;
-        margin-top: 127px;
-        margin-left: -8px;
-        white-space: nowrap;
-    }
-    
-    .tagline-2 {
-            background-color: #041C3780;
-            color: white;
-            padding: 0px;
-            font-family: "Krub", sans-serif;
-             font-weight: 700;
-            font-style: normal;
-            font-size: 11px;
-            line-height: 24px;
-            text-align: left;
-            width: 42px;
-    }
+}
 
-    .image-contain {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: 30px;
-    }
-    .image-contain img {
-        width: 22%;
-        margin: 10px;
-    }
+.cont-3 {
+    background-image: url('./Backplane.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    height: 22rem;
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+}
 
-    .countt{
-        width: 100%;
-        text-align: center;
-        position: relative;
-        top: 5rem;
-    }
+.content-3 {
+    color: white;
+    width: 228px;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 127px;
+    margin-left: -8px;
+    white-space: nowrap;
+}
 
-    .footer-3 {
-        background-color: #091242;
-        width: 100%;
-        height: 31rem;
-        gap: 0px;
-        opacity: 0px;
-        margin-top: 85px;
-        position: relative;
-        top: 2rem;
-      }
+.tagline-2 {
+    background-color: #041C3780;
+    color: white;
+    padding: 0px;
+    font-family: "Krub", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: left;
+    width: 42px;
+}
+
+.image-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+.image-contain img {
+    width: 22%;
+    margin: 10px;
+}
+
+.countt{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+}
+
+.footer-3 {
+    background-color: #091242;
+    width: 100%;
+    height: 31rem;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 85px;
+    position: relative;
+    top: 2rem;
+}
