@@ -1,13 +1,13 @@
 .services-title-1{
-font-family: Rubik;
-font-size: 49px;
-font-weight: 600;
-line-height: 50.1px;
-text-align: left;
+    font-family: Rubik;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 50.1px;
+    text-align: left;
 }
 
 .cont-3 {
-    background-image: url('./img/conta.png');
+    background-image: url('./conta.png');
     background-size: cover;
     background-position: center;
     padding: 50px;
@@ -28,16 +28,16 @@ text-align: left;
 }
 
 .tagline-2 {
-        background-color: #041C3780;
-        color: white;
-        padding: 0px;
-        font-family: "Krub", sans-serif;
-         font-weight: 700;
-        font-style: normal;
-        font-size: 11px;
-        line-height: 24px;
-        text-align: left;
-        width: 80px;
+    background-color: #041C3780;
+    color: white;
+    padding: 0px;
+    font-family: "Krub", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: left;
+    width: 80px;
 }
 
 .jid{
@@ -91,19 +91,16 @@ text-align: left;
     opacity: 1;
     position: relative;
     padding: 51px;
-    
 }
 
 .left-div-a {
     width: calc(50% - 36px); 
     float: left;
-  
 }
 
 .right-div-a {
     width: calc(50% - 36px);
     float: right;
-   
 }
 
 .benefit-title {
@@ -113,7 +110,6 @@ text-align: left;
     line-height: 41.48px;
     text-align: left;
     color: #1C1F35;
-   
 }
 
 .service-description-a {
@@ -131,7 +127,6 @@ text-align: left;
     font-size: 20px;
     list-style: none;
     margin-top: 10px;
-   
 }
 .section-image-a{
     width: 100%;
@@ -154,4 +149,4 @@ text-align: left;
     margin-top: 85px;
     position: relative;
     top: -3rem;
-  }
+}
