@@ -233,5 +233,70 @@
   </footer>
 
 </body>
+    <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const header = document.querySelector('.header');
+      const navbar = document.querySelector('.navbar');
+      const navLinks = document.querySelectorAll('.nav-link');
+      const dropdownButton = document.querySelector('.dropbtn');
+      const dropdownContent = document.querySelector('.dropdown-content');
+  
+      window.addEventListener('scroll', function() {
+          if (window.scrollY > 50) {
+              header.style.display = 'none';
+              navbar.classList.add('scrolled');
+          } else {
+              header.style.display = 'block';
+              navbar.classList.remove('scrolled');
+          }
+      });
+  
+      
+      function setActiveNavLink() {
+          const currentPath = window.location.pathname;
+          navLinks.forEach(link => {
+              if (link.getAttribute('href') === currentPath || link.getAttribute('href') === currentPath.split('/').pop()) {
+                  link.classList.add('active');
+              } else {
+                  link.classList.remove('active');
+              }
+          });
+      }
+  
+
+      setActiveNavLink();
+  
+     
+      dropdownButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          dropdownContent.classList.toggle('show');
+      });
+  
+      
+      window.addEventListener('click', function(e) {
+          if (!dropdownButton.contains(e.target) && !dropdownContent.contains(e.target)) {
+              dropdownContent.classList.remove('show');
+          }
+      });
+  
+      
+      navLinks.forEach(link => {
+          link.addEventListener('click', function(event) {
+              navLinks.forEach(nav => nav.classList.remove('active'));
+              this.classList.add('active');
+          });
+      });
+  
+      
+      const dropdownLinks = document.querySelectorAll('.dropdown-content a');
+      dropdownLinks.forEach(link => {
+          link.addEventListener('click', function(event) {
+              dropdownContent.classList.remove('show');
+              navLinks.forEach(nav => nav.classList.remove('active'));
+              link.classList.add('active');
+          });
+      });
+  });
+  </script>
 </html>
 
