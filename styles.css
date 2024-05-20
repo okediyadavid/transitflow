@@ -204,7 +204,7 @@ body {
     padding: 50px;
     height: 85%;
     position: absolute;
-    margin-top: 0px;
+    margin-top: -1px;
     width: 100%;
 }
 
@@ -212,7 +212,7 @@ body {
     width: 228px;
     margin: 0 auto;
     position: absolute;
-    margin-top: 152px;
+    margin-top: 185px;
     margin-left: 86px;
 }
 
