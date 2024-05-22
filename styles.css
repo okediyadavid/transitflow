@@ -851,11 +851,11 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    border-top: 1px solid #D6D6D6; /* Add border line to the top of each div */
-    border-bottom: 1px solid #D6D6D6; /* Add border line to the bottom of each div */
-    width: 943px; /* Set width of the border */
-    height: 310px; /* Set height of the border */
-    top: 744px; /* Set position of the border */
+    border-top: 1px solid #D6D6D6; 
+    border-bottom: 1px solid #D6D6D6; 
+    width: 943px; 
+    height: 310px; 
+    top: 744px; 
     gap: 0px;
     opacity: 0px;
     margin-left: 18%;
@@ -985,6 +985,7 @@ body {
 
     .footer-section {
       flex-basis: 25%;
+        width: 54%;
     }
 
     .footer-section h5 {
@@ -994,7 +995,7 @@ body {
       line-height: 40px;
       color: #FFFFFF;
       margin-bottom: 68px;
-      width: 98%;
+      width: 88%;
       margin-left: 65px;
       padding: 2px;
       height: 52px;
@@ -1054,7 +1055,7 @@ body {
     }
 
     .footer-subscribe input {
-      width: 232px;
+      width: 219px;
       height: 60px;
       background-color: transparent;
       border: 1px solid #4E5683;
