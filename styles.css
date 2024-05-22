@@ -189,6 +189,9 @@ body {
     outline: none;
     transition: background-color 0.3s ease; 
     margin-left: -130%;
+    padding-top: 8px;
+    padding-bottom:8px;
+    
 }
 
 .request-quote button:hover {
