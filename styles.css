@@ -985,7 +985,7 @@ body {
 
     .footer-section {
       flex-basis: 25%;
-        width: 54%;
+        width: 48%;
     }
 
     .footer-section h5 {
@@ -1082,7 +1082,9 @@ body {
       margin-bottom: 18px;
       position: relative;
       top: 93px;
-      left: -39%;
+      left: -49%;
+        padding:24px;
+        text-wrap: nowrap;
     }
 
     .footer-subscribe .social-icons {
