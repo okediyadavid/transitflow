@@ -175,3 +175,268 @@
     position: relative;
     top: 30rem;
 }
+
+/*serices page*/
+@media (max-width: 768px) {
+    .services-title {
+      font-size: 30px;
+      line-height: 36px;
+    }
+  
+    .cont-2 {
+      height: 20rem;
+      padding: 30px;
+      width: 400%;
+    }
+  
+    .content-2 {
+      width: 180px;
+      margin-top: 100px;
+    }
+  
+    .tagline-1 {
+      font-size: 10px;
+      line-height: 20px;
+      width: 45px;
+    }
+  
+    .section-services-1 {
+      height: auto;
+      padding: 50px;
+      width: 381%;
+    }
+  
+    .section-container-2 {
+      height: auto;
+      padding: 50px;
+      width: 400%;
+    }
+  
+    .heading-title-1 {
+      font-size: 25px;
+      line-height: 30px;
+      top: -12rem;
+      left: 25%;
+    }
+  
+    .left-div-3 img {
+      left: -200%;
+      top: 2rem;
+      height: 20rem;
+    }
+  
+    .right-div-3 {
+      left: -40%;
+    }
+  
+    .fant-ti {
+      font-size: 20px;
+      line-height: 30px;
+      width: 150%;
+    }
+  
+    .k-para {
+      font-size: 14px;
+      line-height: 20px;
+      width: 200%;
+    }
+  
+    .sma-p {
+      width: 100%;
+      font-size: 12px;
+      line-height: 14px;
+      top: -15rem;
+      left: 200%;
+    }
+  
+    .testimonial-container-2 {
+      top: 110rem;
+      width: 400%;
+    }
+  
+    .countt {
+      top: 30rem;
+    }
+  
+    .footer-2 {
+      top: 25rem;
+      height: 31rem;
+      width: 400%;
+    }
+  }
+  
+  /*2560*/
+  @media (min-width: 2560px) {
+    .services-title {
+      font-size: 70px;
+      line-height: 72px;
+    }
+  
+    .cont-2 {
+      height: 50rem;
+      padding: 80px;
+    }
+  
+    .content-2 {
+      width: 300px;
+      margin-top: 240px;
+    }
+  
+    .tagline-1 {
+      font-size: 16px;
+      line-height: 32px;
+      width: 80px;
+    }
+  
+    .section-services-1 {
+      height: 80rem;
+      padding: 150px 600px;
+    }
+  
+    .section-container-2 {
+      height: 60rem;
+      padding: 150px 600px;
+    }
+  
+    .heading-title-1 {
+      font-size: 50px;
+      line-height: 60px;
+      top: -20rem;
+      left: 32%;
+    }
+  
+    .left-div-3 img {
+      left: -300%;
+      top: 5rem;
+      height: 40rem;
+    }
+  
+    .right-div-3 {
+      left: -50%;
+    }
+  
+    .fant-ti {
+      font-size: 40px;
+      line-height: 60px;
+      width: 190%;
+    }
+  
+    .k-para {
+      font-size: 22px;
+      line-height: 34px;
+      width: 280%;
+    }
+  
+    .sma-p {
+      width: 150%;
+      font-size: 18px;
+      line-height: 22px;
+      top: -25rem;
+      left: 400%;
+    }
+  
+    .testimonial-container-2 {
+      top: 180rem;
+    }
+  
+    .countt {
+      top: 50rem;
+    }
+  
+    .footer-2 {
+      top: 40rem;
+      height: 58rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .services-title {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  
+    .cont-2 {
+        width: 119%;
+      height: 25rem;
+      padding: 40px;
+    }
+  
+    .content-2 {
+      width: 200px;
+      margin-top: 120px;
+    }
+  
+    .tagline-1 {
+      font-size: 12px;
+      line-height: 22px;
+      width: 50px;
+    }
+  
+    .section-services-1 {
+      height: auto;
+      padding: 80px;
+      width: 119%;
+    }
+  
+    .section-container-2 {
+      height: auto;
+      padding: 80px;
+      width: 119%;
+    }
+  
+    .heading-title-1 {
+      font-size: 30px;
+      line-height: 35px;
+      top: -15rem;
+      left: 30%;
+    }
+  
+    .left-div-3 img {
+      left: -250%;
+      top: 3rem;
+      height: 25rem;
+    }
+  
+    .right-div-3 {
+      left: -45%;
+    }
+  
+    .fant-ti {
+      font-size: 22px;
+      line-height: 35px;
+      width: 170%;
+    }
+  
+    .k-para {
+      font-size: 15px;
+      line-height: 22px;
+      width: 220%;
+    }
+  
+    .sma-p {
+      width: 120%;
+      font-size: 13px;
+      line-height: 16px;
+      top: -18rem;
+      left: 300%;
+    }
+  
+    .testimonial-container-2 {
+      top: 125rem;
+      width: 119%;
+    }
+  
+    .countt {
+      top: 35rem;
+    }
+  
+    .footer-2 {
+      top: 30rem;
+      height: 30rem;
+      width: 119%;
+    }
+  }
+  
+
+
+     
